@@ -4,52 +4,106 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de9b94c9-eb80-410e-a337-16e1ab87d494" name="Changes" comment="" />
+    <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DM-UK"
+  }
 }]]></component>
-  <component name="ProjectId" id="2tWvoHDstrBHk2CUHlpXClQynPE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DM-UK/TriangleGrid.git",
+    "accountId": "dd1e7c1b-0e32-4bab-9460-28a33098eb96"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tX2epdddVGsf7ZPtnk2o0nSSQy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TriangleGridDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Anonymous/IdeaProjects2/TriangleGrid/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Users/Anonymous/IdeaProjects2/TriangleGrid",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anonymous\IdeaProjects2\TriangleGrid" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anonymous\IdeaProjects2\TriangleGrid\src\main\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="trianglegrid.structure" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TriangleGridDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trianglegrid.TriangleGridDemo" />
+      <module name="TriangleGrid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trianglegrid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TriangleGridDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de9b94c9-eb80-410e-a337-16e1ab87d494" name="Changes" comment="" />
-      <created>1740480819732</created>
+      <changelist id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="" />
+      <created>1740484196995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740480819732</updated>
+      <updated>1740484196995</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

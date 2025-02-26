@@ -7,18 +7,14 @@ import java.awt.*;
 import java.util.Random;
 
 public class DemoGridRender extends TriangleGridRenderer {
-
     public DemoGridRender(TriangleGrid grid, int edgeLength) {
         super(grid, edgeLength);
     }
+
+    @Override
     protected void drawNode(Graphics2D g2d, TriangleGridNode node, int drawingOperation) {
         Random random = new Random();
-        //Color randomColor = new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
-
-       // int rnd = node.hashCode();
-        //Random random = new Random(rnd);
         Color randomColor = new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
-
         g2d.setColor(randomColor);
 
         switch (drawingOperation) {
@@ -33,6 +29,7 @@ public class DemoGridRender extends TriangleGridRenderer {
                 break;
         }
     }
+
     @Override
     protected void drawEdge(Graphics2D g2d, Edge edge, double edgeFinishX, double edgeFinishY) {
         Color colour = g2d.getColor();
@@ -55,5 +52,4 @@ public class DemoGridRender extends TriangleGridRenderer {
         g2d.setColor(Color.black);
         g2d.drawOval(-8, -8, 16, 16);
     }
-
 }

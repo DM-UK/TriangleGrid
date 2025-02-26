@@ -1,4 +1,4 @@
-package trianglegrid.structure;
+package trianglegrid.grid;
 
 public class TriangleGridNode {
     public Vertex vertex;

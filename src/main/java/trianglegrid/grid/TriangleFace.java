@@ -1,4 +1,4 @@
-package trianglegrid.structure;
+package trianglegrid.grid;
 
 public class TriangleFace {
     public final static boolean POINTY_UP = false;

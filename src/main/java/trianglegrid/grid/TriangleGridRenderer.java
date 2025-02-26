@@ -1,4 +1,4 @@
-package trianglegrid.structure;
+package trianglegrid.grid;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;

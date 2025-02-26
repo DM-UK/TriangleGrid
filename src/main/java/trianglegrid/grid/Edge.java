@@ -1,4 +1,4 @@
-package trianglegrid.structure;
+package trianglegrid.grid;
 
 public class Edge {
     public static final int NORTH_WEST = 0;
