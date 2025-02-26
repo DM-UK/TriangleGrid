@@ -1,10 +1,12 @@
+# TriangleGrid
+
 An implementation of a triangle-based grid system with independent point, edge, and face mechanics optimized for efficiency by avoiding shared references.
 
 While memory overhead (may) not be the greatest of concerns these days. Avoiding shared vertex, edge and face references can be desirable in algorithms
 
 One example of this advantage is in rendering: each constituent part of a triangle is guaranteed to be rendered only once.
 
-![[Pasted image 20250226120113.png]]
+![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
 
 ## Usage 
 
@@ -22,21 +24,22 @@ Rendering onto a Graphics2D canvas requires extending the TriangleGridRenderer a
 ## Grid Data Structure
 
 Each node contains:
-1 point
-2 faces - N, S
-3 edges - NW, NE, W
+- 1 point
+- 2 faces - N, S
+- 3 edges - NW, NE, W
 
 
-![[Pasted image 20250226103415.png]]
+![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/0.png)
+
 
 Tessellation onto a grid:
 
-![[Pasted image 20250226104302.png]]
+![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/1.png)
 
 Validating for out of bounds edges (only 1 vertex) and out of bounds faces (less than 3 vertices:
 
-![[Pasted image 20250226104722.png]]
+![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/2.png)
 
 Internal representation (each colour representing a different node):
 
-![[Pasted image 20250226105421.png]]
+![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/3.png)
