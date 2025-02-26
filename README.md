@@ -1,0 +1,42 @@
+An implementation of a triangle-based grid system with independent point, edge, and face mechanics optimized for efficiency by avoiding shared references.
+
+While memory overhead (may) not be the greatest of concerns these days. Avoiding shared vertex, edge and face references can be desirable in algorithms
+
+One example of this advantage is in rendering: each constituent part of a triangle is guaranteed to be rendered only once.
+
+![[Pasted image 20250226120113.png]]
+
+## Usage 
+
+        TriangleGrid grid = new TriangleGrid(8, 8);
+        TriangleFace face = grid.getFace(2,7, TriangleFace.POINTY_UP);
+        Edge edge = grid.getEdge(2,7, Edge.NORTH_WEST);
+        Vertex vertex = grid.getVertice(2,7);
+
+
+Rendering onto a Graphics2D canvas requires extending the TriangleGridRenderer and implementing the following methods:
+
+    drawEdge(Graphics2D g2d, Edge edge, double edgeFinishX, double edgeFinishY);
+    drawFace(Graphics2D g2d, TriangleFace face, Shape triangleShape);
+    drawVertex(Graphics2D g2d, Vertex vertex);
+## Grid Data Structure
+
+Each node contains:
+1 point
+2 faces - N, S
+3 edges - NW, NE, W
+
+
+![[Pasted image 20250226103415.png]]
+
+Tessellation onto a grid:
+
+![[Pasted image 20250226104302.png]]
+
+Validating for out of bounds edges (only 1 vertex) and out of bounds faces (less than 3 vertices:
+
+![[Pasted image 20250226104722.png]]
+
+Internal representation (each colour representing a different node):
+
+![[Pasted image 20250226105421.png]]
