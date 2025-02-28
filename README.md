@@ -1,10 +1,8 @@
 # TriangleGrid
 
-An implementation of a triangle-based grid system with independent point, edge, and face mechanics optimized for efficiency by avoiding shared references.
+An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
-While memory overhead (may) not be the greatest of concerns these days. Avoiding shared vertex, edge and face references can be desirable in algorithms
-
-One example of this advantage is in rendering: each constituent part of a triangle is guaranteed to be rendered only once.
+By avoiding shared vertex, edge and face references each part is guaranteed to be rendered only once.
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
 
