@@ -2,8 +2,6 @@
 
 An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
-By avoiding shared vertex, edge and face references each part is guaranteed to be rendered only once.
-
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
 
 ## Usage
