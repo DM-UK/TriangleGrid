@@ -2,7 +2,8 @@
 
 An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
-![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
+
 
 ## Usage
 
@@ -36,5 +37,3 @@ Tessellation onto a grid:
 Validating for out of bounds edges (only 1 vertex) and out of bounds faces (less than 3 vertices:
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/2.png)
-
-![]([https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
