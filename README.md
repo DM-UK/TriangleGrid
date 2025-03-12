@@ -3,7 +3,6 @@
 An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
-![](https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
 
 ## Usage
 
@@ -18,6 +17,7 @@ Rendering onto a Graphics2D canvas requires extending the TriangleGridRenderer a
     drawEdge(Graphics2D g2d, Edge edge, double edgeFinishX, double edgeFinishY);
     drawFace(Graphics2D g2d, TriangleFace face, Shape triangleShape);
     drawVertex(Graphics2D g2d, Vertex vertex);
+
 ## Grid Data Structure
 
 Each node contains:
@@ -37,6 +37,4 @@ Validating for out of bounds edges (only 1 vertex) and out of bounds faces (less
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/2.png)
 
-Internal representation (each colour representing a different node):
-
-![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/3.png)
+![]([https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
