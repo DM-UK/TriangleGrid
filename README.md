@@ -3,6 +3,7 @@
 An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/4.png)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
 
 ## Usage
 
