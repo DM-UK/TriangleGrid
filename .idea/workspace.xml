@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/DirectedTriangleCoordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleGridGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleGridPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleSelectionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleGridRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" afterDir="false" />
+    <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +104,19 @@
       <option name="presentableId" value="Default" />
       <updated>1740484196995</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1741869557686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741869557686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>

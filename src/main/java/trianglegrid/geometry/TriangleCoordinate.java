@@ -8,7 +8,6 @@ public class TriangleCoordinate {
 
     public static final int[][] cubeDirectionVectors = {
             {0, -1, +1}, {+1, -1, 0}, {+1, 0, -1}, {0, +1, -1}, {-1, +1, 0}, {-1, 0, +1}
-
     };
 
     public TriangleCoordinate(int x, int y){
