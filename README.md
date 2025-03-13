@@ -1,6 +1,6 @@
 # TriangleGrid
 
-An implementation of a triangle-based grid system with point, edge, and face mechanics.
+An implementation of a triangle-based grid system with vertex, edge, and face mechanics.
 
 ![](https://github.com/DM-UK/TriangleGrid/blob/master/img/3.png)
 
@@ -24,7 +24,7 @@ Rendering onto a Graphics2D canvas requires extending the TriangleGridRenderer a
 ## Grid Data Structure
 
 Each node contains:
-- 1 point
+- 1 vertex
 - 2 faces - N, S
 - 3 edges - NW, NE, W
 
