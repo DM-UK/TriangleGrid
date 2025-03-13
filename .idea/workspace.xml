@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/DirectedTriangleCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleGridGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleGridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleSelectionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/DemoGridRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/TriangleGridDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleFace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/TriangleGridRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/ui/TriangleGridRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/grid/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,45 +36,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DM-UK"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DM-UK&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DM-UK/TriangleGrid.git",
-    "accountId": "dd1e7c1b-0e32-4bab-9460-28a33098eb96"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DM-UK/TriangleGrid/&quot;,
+    &quot;accountId&quot;: &quot;dd1e7c1b-0e32-4bab-9460-28a33098eb96&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2tX2epdddVGsf7ZPtnk2o0nSSQy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TriangleGridDemo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Anonymous/IdeaProjects2/TriangleGrid",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TriangleGridDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anonymous/IdeaProjects/TriangleGrid/src/main/java/trianglegrid/grid&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="trianglegrid.grid" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anonymous\IdeaProjects\TriangleGrid\src\main\java\trianglegrid\grid" />
       <recent name="C:\Users\Anonymous\IdeaProjects2\TriangleGrid" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Anonymous\IdeaProjects2\TriangleGrid\src\main\img" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="trianglegrid.geometry.GridGeometry" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="trianglegrid.grid" />
       <recent name="trianglegrid.structure" />
     </key>
   </component>

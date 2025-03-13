@@ -1,7 +1,7 @@
 package trianglegrid.grid;
 
+import java.util.Random;
+
 public class Edge {
-    public static final int NORTH_WEST = 0;
-    public static final int NORTH_EAST = 1;
-    public static final int WEST = 2;
+    public boolean binaryValue = new Random().nextBoolean();
 }
