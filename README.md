@@ -2,7 +2,9 @@
 
 An implementation of a triangle-based grid system with point, edge, and face mechanics.
 
-![](https://github.com/DM-UK/TriangleGrid/blob/master/animation.gif)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/img/3.png)
+
+![](https://github.com/DM-UK/TriangleGrid/blob/master/img/animation.gif)
 
 
 ## Usage
@@ -27,13 +29,13 @@ Each node contains:
 - 3 edges - NW, NE, W
 
 
-![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/0.png)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/img/0.png)
 
 
 Tessellation onto a grid:
 
-![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/1.png)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/img/1.png)
 
 Validating for out of bounds edges (only 1 vertex) and out of bounds faces (less than 3 vertices:
 
-![](https://github.com/DM-UK/TriangleGrid/blob/master/src/main/img/2.png)
+![](https://github.com/DM-UK/TriangleGrid/blob/master/img/2.png)
