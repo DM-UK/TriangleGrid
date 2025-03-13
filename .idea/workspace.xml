@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="refactor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trianglegrid/geometry/TriangleCoordinate.java" afterDir="false" />
-    </list>
+    <list default="true" id="105c6558-55dd-4b09-bcf0-ba06eb5db446" name="Changes" comment="refactor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741869557686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1741869854497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741869854497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
