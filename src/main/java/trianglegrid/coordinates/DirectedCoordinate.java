@@ -1,10 +1,10 @@
-package trianglegrid.geometry;
+package trianglegrid.coordinates;
 
-public class DirectedTriangleCoordinate {
+public class DirectedCoordinate {
     public final TriangleCoordinate coordinate;
     public final int direction;
 
-    public DirectedTriangleCoordinate(TriangleCoordinate coordinate, int direction){
+    public DirectedCoordinate(TriangleCoordinate coordinate, int direction){
         this.coordinate = coordinate;
         this.direction = direction;
     }

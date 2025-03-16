@@ -1,17 +1,18 @@
 package trianglegrid;
 
 
-import trianglegrid.geometry.DirectedTriangleCoordinate;
-import trianglegrid.geometry.TriangleCoordinate;
+import trianglegrid.coordinates.DirectedCoordinate;
+import trianglegrid.coordinates.FractionalCoordinate;
+import trianglegrid.coordinates.TriangleCoordinate;
 import trianglegrid.grid.*;
 import trianglegrid.ui.TriangleGridPane;
-import trianglegrid.ui.TriangleSelectionListener;
+import trianglegrid.ui.GridSelectionListener;
 
 import javax.swing.*;
 
-public class TriangleGridDemo implements TriangleSelectionListener {
+public class TriangleGridDemo implements GridSelectionListener {
     private final TriangleGrid grid = new TriangleGrid(2000, 2000);
-    private final DemoGridRender renderer = new DemoGridRender(grid, 1000, 1000, 50);
+    private final DemoGridRender renderer = new DemoGridRender(grid, 1000, 1000, 80);
     private final TriangleGridPane triangleGridPane = new TriangleGridPane(renderer);
 
     public TriangleGridDemo()
@@ -30,17 +31,26 @@ public class TriangleGridDemo implements TriangleSelectionListener {
 
     @Override
     public void vertexSelected(TriangleCoordinate vertexCoordinate, Vertex vertex) {
-        renderer.getPosition().setLocation(
-                vertexCoordinate.x, vertexCoordinate.y);
+        renderer.selection = vertex;
         triangleGridPane.repaint();
     }
 
     @Override
-    public void edgeSelected(DirectedTriangleCoordinate edgeCoordinate, Edge edge) {
+    public void edgeSelected(DirectedCoordinate edgeCoordinate, Edge edge) {
+        renderer.selection = edge;
+        triangleGridPane.repaint();
     }
 
     @Override
-    public void faceSelected(DirectedTriangleCoordinate faceCoordinate, TriangleFace face) {
+    public void faceSelected(DirectedCoordinate faceCoordinate, TriangleFace face) {
+        renderer.selection = face;
+        triangleGridPane.repaint();
+    }
+
+    @Override
+    public void gridSelected(FractionalCoordinate selectionCoordinate) {
+        renderer.setPosition(selectionCoordinate);
+        triangleGridPane.repaint();
     }
 
     public static void main(String[] args) {

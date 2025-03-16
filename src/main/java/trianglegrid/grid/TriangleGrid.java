@@ -1,6 +1,6 @@
 package trianglegrid.grid;
 
-import trianglegrid.geometry.TriangleCoordinate;
+import trianglegrid.coordinates.TriangleCoordinate;
 
 /** Represents a grid of triangle vertices, edges, and faces. */
 public class TriangleGrid {
@@ -21,7 +21,7 @@ public class TriangleGrid {
         for (int y = 0; y < gridHeight; y++) {
             nodes[y] = new TriangleGridNode[gridWidth];
             for (int x = 0; x < gridWidth; x++) {
-                TriangleCoordinate coordinate = new TriangleCoordinate(x, y);
+                TriangleCoordinate coordinate = TriangleCoordinate.fromOffsetCoordinate(x, y);
                 //validate for border vertices
                 boolean vertex0 = isInBounds(coordinate.getNeighbour(0));
                 boolean vertex1 = isInBounds(coordinate.getNeighbour(1));
@@ -37,7 +37,7 @@ public class TriangleGrid {
 
     /** Determines whether a coordinate falls within the grid */
     private boolean isInBounds(TriangleCoordinate coordinate) {
-        return isInBounds(coordinate.x, coordinate.y);
+        return isInBounds(coordinate.getX(), coordinate.getY());
     }
 
     /** Determines whether a coordinate falls within the grid */
@@ -56,9 +56,14 @@ public class TriangleGrid {
             return nodes[y][x];
     }
 
+    /** Return a TriangleGridNode. null if coordinate falls outside grid  */
+    public TriangleGridNode getNode(TriangleCoordinate coordinate) {
+        return getNode(coordinate.getX(), coordinate.getY());
+    }
+
     /** Return a Vertex. null if coordinate falls outside grid */
     public Vertex getVertex(TriangleCoordinate coordinate) {
-        TriangleGridNode node = getNode(coordinate.x, coordinate.y);
+        TriangleGridNode node = getNode(coordinate.getX(), coordinate.getY());
 
         if (node != null)
             return node.vertex;
@@ -73,7 +78,7 @@ public class TriangleGrid {
             edgeIndex = edgeIndex - 3;
         }
 
-        TriangleGridNode node = getNode(coordinate.x, coordinate.y);
+        TriangleGridNode node = getNode(coordinate.getX(), coordinate.getY());
 
         if (node != null)
             return node.edges[edgeIndex];
@@ -82,7 +87,7 @@ public class TriangleGrid {
     }
 
     private TriangleFace getFace(TriangleCoordinate coordinate, boolean pointing) {
-        TriangleGridNode node = getNode(coordinate.x, coordinate.y);
+        TriangleGridNode node = getNode(coordinate.getX(), coordinate.getY());
 
         if (node != null) {
             if (pointing == TriangleFace.POINTY_UP) {
